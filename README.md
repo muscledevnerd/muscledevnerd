@@ -39,7 +39,7 @@ Feel free to explore my repositories — always open to collaboration, feedback,
 
 ---
 
-## 🔋 Powered by Coffee & Curiosity:
+## 🔋 Powered by Growth & Curiosity:
 Driven by passion for **tech, product innovation, and continuous growth** ☕✨
 
 ---

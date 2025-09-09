@@ -39,12 +39,6 @@ Feel free to explore my repositories — always open to collaboration, feedback,
 
 ---
 
-## 📈 GitHub Stats:
-![Mridul's GitHub stats](https://github-readme-stats.vercel.app/api?username=muscledevnerd&show_icons=true&theme=radical)  
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=muscledevnerd&theme=radical)  
-
----
-
 ## 🔋 Powered by Coffee & Curiosity:
 Driven by passion for **tech, product innovation, and continuous growth** ☕✨
 

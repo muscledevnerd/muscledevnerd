@@ -5,7 +5,7 @@ Welcome to my GitHub profile! I'm a Toronto-based Senior IT Developer with 10 ye
 
 I'm passionate about designing clean architectures, leading teams through critical deliveries, and continuously learning modern development and cloud practices.
 
-I also bring hands-on expertise in building robust full-stack applications — from frontend frameworks to backend services and databases — along with production troubleshooting, RCA, and performance optimisation to ensure seamless reliability for enterprise platforms.
+I also bring hands-on expertise in building and optimising full-stack applications, ensuring clean architectures, high code quality, and smooth integration across frontend, backend, and data layers in enterprise environments.
 
 Currently, I am expanding my cloud and AI skills, diving deeper into AWS, Docker, CI/CD pipelines, and AI-powered productivity tools. 🚀  
 

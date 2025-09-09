@@ -1,12 +1,13 @@
 # 💫 About Me:
 Hello, I'm Mridul Khanna! 👋🏽 
 
-Welcome to my GitHub profile! I'm a Toronto-based Senior IT Developer with **10 years of experience** in full-stack software development. I specialise in building **scalable, secure, and user-centric applications** using **Java, Spring Boot, Angular, React, JavaScript, and SQL**.  
+Welcome to my GitHub profile! I'm a Toronto-based Senior IT Developer with 10 years of experience in full-stack software development. I specialise in building scalable, secure, and user-centric applications using Java, Spring Boot, Angular, React, JavaScript, and SQL.  
 
-I'm passionate about designing clean architectures, leading teams through critical deliveries, and continuously learning modern development and cloud practices.  
-I also bring hands-on expertise in **production support, root cause analysis (RCA), incident management, and platform reliability** for enterprise financial applications.  
+I'm passionate about designing clean architectures, leading teams through critical deliveries, and continuously learning modern development and cloud practices.
 
-Currently, I am expanding my **cloud and AI skills**, diving deeper into **AWS, Docker, CI/CD pipelines, and AI-powered productivity tools**. 🚀  
+I also bring hands-on expertise in building robust full-stack applications — from frontend frameworks to backend services and databases — along with production troubleshooting, RCA, and performance optimisation to ensure seamless reliability for enterprise platforms.
+
+Currently, I am expanding my cloud and AI skills, diving deeper into AWS, Docker, CI/CD pipelines, and AI-powered productivity tools. 🚀  
 
 Feel free to explore my repositories — always open to collaboration, feedback, and exciting opportunities!  
 
@@ -41,7 +42,7 @@ Feel free to explore my repositories — always open to collaboration, feedback,
 ---
 
 ## 🔋 Powered by Growth & Curiosity:
-Driven by passion for **tech, product innovation, and continuous growth** ☕✨
+Driven by passion for tech, product innovation, and continuous growth ☕✨
 
 ---
 

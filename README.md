@@ -35,7 +35,7 @@ Feel free to explore my repositories — always open to collaboration, feedback,
 ## 📚 Certifications & Learning:
 - Java Spring Boot Mastery (BroCode / LinkedIn Learning)  
 - AWS Fundamentals (Coursera)  
-- LeetCode Mastery Plan (Amazon SDE Prep 🚀)  
+- LeetCode Mastery Plan (AZ-SDE Prep 🚀)  
 
 ---
 

@@ -50,6 +50,6 @@ Driven by passion for **tech, product innovation, and continuous growth** ☕✨
 
 ---
 
-[![](https://visitcount.itsvg.in/api?id=YOUR_USERNAME&icon=0&color=0)](https://visitcount.itsvg.in)
+[![](https://visitcount.itsvg.in/api?id=muscledevnerd&icon=0&color=0)](https://visitcount.itsvg.in)
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->

@@ -9,8 +9,6 @@ I also bring hands-on expertise in building and optimising full-stack applicatio
 
 Currently, I am expanding my cloud and AI skills, diving deeper into AWS, Docker, CI/CD pipelines, and AI-powered productivity tools. 🚀  
 
-Feel free to explore my repositories — always open to collaboration, feedback, and exciting opportunities!  
-
 ---
 
 ## 🌐 Connect with me:

@@ -1,5 +1,5 @@
 # 💫 About Me:
-Hello, I'm Mridul Khanna! 👋  
+Hello, I'm Mridul Khanna! 👋🏽 
 Welcome to my GitHub profile! I'm a Toronto-based Senior IT Developer with **10 years of experience** in full-stack software development. I specialise in building **scalable, secure, and user-centric applications** using **Java, Spring Boot, Angular, React, JavaScript, and SQL**.  
 
 I'm passionate about designing clean architectures, leading teams through critical deliveries, and continuously learning modern development and cloud practices.  

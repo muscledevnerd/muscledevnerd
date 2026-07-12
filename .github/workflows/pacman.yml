@@ -1,0 +1,40 @@
+name: Generate Pac-Man Contribution Graph
+
+on:
+  schedule:
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/pacman.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    name: Generate contribution animation
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate Pac-Man contribution SVGs
+        uses: abozanona/pacman-contribution-graph@main
+        with:
+          github_user_name: muscledevnerd
+          games: pacman
+
+      - name: Copy generated SVGs into assets
+        run: |
+          mkdir -p assets
+          cp dist/pacman-contribution-graph.svg assets/pacman-contribution-graph.svg
+          cp dist/pacman-contribution-graph-dark.svg assets/pacman-contribution-graph-dark.svg
+
+      - name: Commit generated contribution graphs
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update Pac-Man contribution graph"
+          file_pattern: assets/pacman-contribution-graph.svg assets/pacman-contribution-graph-dark.svg

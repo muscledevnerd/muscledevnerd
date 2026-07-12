@@ -87,6 +87,12 @@ jobs:
               path.write_text(svg, encoding="utf-8")
           PY
 
+      - name: Sync latest branch state
+        run: |
+          git stash push --include-untracked -m generated-contribution-graph || true
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git stash pop || true
+
       - name: Commit generated contribution graphs
         uses: stefanzweifel/git-auto-commit-action@v5
         with:

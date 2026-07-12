@@ -47,7 +47,7 @@
     <text class="out line l8" x="0" y="196">10 years</text>
 
     <text class="prompt line l9" x="520" y="0">$ stack</text>
-    <text class="out line l10" x="520" y="28">Java &#8226; Spring Boot &#8226; Angular &#8226; React &#8226; TypeScript &#8226; SQL</text>
+    <text class="out line l10" x="520" y="28">Java &#8226; Spring Boot &#8226; Angular &#8226; React &#8226; TypeScript</text>
     <text class="prompt line l11" x="520" y="70">$ currently-learning</text>
     <text class="out line l12" x="520" y="98">AWS &#8226; Docker &#8226; System Design &#8226; Applied AI</text>
     <text class="prompt line l13" x="520" y="140">$ mission</text>

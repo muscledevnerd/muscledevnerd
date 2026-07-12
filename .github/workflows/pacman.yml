@@ -84,6 +84,8 @@ jobs:
                   svg = svg.replace(open_tag, open_tag + title, 1)
               if "<desc" not in svg[:700]:
                   svg = svg.replace("</title>", "</title>" + desc, 1)
+              elif '<desc id=' not in svg[:700]:
+                  svg = svg.replace("<desc>", '<desc id="desc">', 1)
               path.write_text(svg, encoding="utf-8")
           PY
 

@@ -1,4 +1,4 @@
-name: Generate Pac-Man Contribution Graph
+name: Generate Contribution Graph Animation
 
 on:
   schedule:
@@ -22,19 +22,73 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Generate Pac-Man contribution SVGs
+        id: pacman
+        continue-on-error: true
         uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: muscledevnerd
+          github_token: ${{ secrets.PROFILE_GITHUB_TOKEN || secrets.GITHUB_TOKEN }}
           games: pacman
 
-      - name: Copy generated SVGs into assets
+      - name: Generate snake fallback SVGs
+        if: always()
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: muscledevnerd
+          outputs: |
+            dist/github-contribution-grid-snake.svg?palette=github
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+        env:
+          GITHUB_TOKEN: ${{ secrets.PROFILE_GITHUB_TOKEN || secrets.GITHUB_TOKEN }}
+
+      - name: Select contribution graph assets
         run: |
           mkdir -p assets
-          cp dist/pacman-contribution-graph.svg assets/pacman-contribution-graph.svg
-          cp dist/pacman-contribution-graph-dark.svg assets/pacman-contribution-graph-dark.svg
+          if [ -f dist/pacman-contribution-graph.svg ] && ! grep -q "<frames>0</frames>" dist/pacman-contribution-graph.svg; then
+            cp dist/pacman-contribution-graph.svg assets/pacman-contribution-graph.svg
+            cp dist/pacman-contribution-graph-dark.svg assets/pacman-contribution-graph-dark.svg
+          else
+            cp dist/github-contribution-grid-snake.svg assets/pacman-contribution-graph.svg
+            cp dist/github-contribution-grid-snake-dark.svg assets/pacman-contribution-graph-dark.svg
+          fi
+
+      - name: Normalize SVG accessibility metadata
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import re
+
+          title = '<title id="title">Contribution graph animation for muscledevnerd</title>'
+          desc = '<desc id="desc">Generated contribution graph animation for muscledevnerd using GitHub Actions.</desc>'
+          files = [
+              Path("assets/pacman-contribution-graph.svg"),
+              Path("assets/pacman-contribution-graph-dark.svg"),
+          ]
+          for path in files:
+              svg = path.read_text(encoding="utf-8")
+              first_tag = re.search(r"<svg\b([^>]*)>", svg)
+              if not first_tag:
+                  raise SystemExit(f"Missing <svg> in {path}")
+              attrs = first_tag.group(1)
+              width = re.search(r'width="(\d+)"', attrs)
+              height = re.search(r'height="(\d+)"', attrs)
+              if "viewBox=" not in attrs and width and height:
+                  attrs = attrs + f' viewBox="0 0 {width.group(1)} {height.group(1)}"'
+              if "role=" not in attrs:
+                  attrs = attrs + ' role="img"'
+              if "aria-labelledby=" not in attrs:
+                  attrs = attrs + ' aria-labelledby="title desc"'
+              open_tag = f"<svg{attrs}>"
+              svg = svg[:first_tag.start()] + open_tag + svg[first_tag.end():]
+              if "<title" not in svg[:500]:
+                  svg = svg.replace(open_tag, open_tag + title, 1)
+              if "<desc" not in svg[:700]:
+                  svg = svg.replace("</title>", "</title>" + desc, 1)
+              path.write_text(svg, encoding="utf-8")
+          PY
 
       - name: Commit generated contribution graphs
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "chore: update Pac-Man contribution graph"
+          commit_message: "chore: update contribution graph animation"
           file_pattern: assets/pacman-contribution-graph.svg assets/pacman-contribution-graph-dark.svg

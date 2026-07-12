@@ -4,7 +4,7 @@
 
 <div align="center">
   <a href="https://github.com/muscledevnerd"><img src="https://komarev.com/ghpvc/?username=muscledevnerd&style=for-the-badge&label=Profile%20Views&color=667eea" alt="Profile views badge for muscledevnerd" /></a>
-  <a href="https://github.com/muscledevnerd?tab=repositories"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fmuscledevnerd&query=%24.public_repos&label=Public%20Repos&style=for-the-badge&logo=github&logoColor=white&color=764ba2" alt="Public repositories badge for muscledevnerd" /></a>
+  <a href="https://github.com/muscledevnerd?tab=repositories"><img src="https://img.shields.io/badge/Public%20Repos-View-764ba2?style=for-the-badge&logo=github&logoColor=white" alt="View public repositories for muscledevnerd" /></a>
   <a href="https://github.com/muscledevnerd?tab=followers"><img src="https://img.shields.io/github/followers/muscledevnerd?style=for-the-badge&logo=github&logoColor=white&label=Followers&color=667eea" alt="GitHub followers badge for muscledevnerd" /></a>
   <a href="https://github.com/muscledevnerd?tab=stars"><img src="https://img.shields.io/github/stars/muscledevnerd?affiliations=OWNER%2CCOLLABORATOR&style=for-the-badge&logo=github&logoColor=white&label=Stars&color=f093fb" alt="GitHub stars badge for muscledevnerd" /></a>
   <a href="https://mridulkhanna.com"><img src="https://img.shields.io/badge/Portfolio-mridulkhanna.com-667eea?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio link badge for mridulkhanna.com" /></a>
@@ -125,28 +125,24 @@ mission: Build secure, scalable and maintainable software.</code></pre>
   <img src="./assets/section-stats.svg" alt="Section heading: GitHub Analytics" width="100%" />
 </div>
 
-> Most of my professional engineering work is completed in private enterprise repositories, so my public GitHub activity represents only part of my overall experience.
+> Most of my professional engineering work is completed in private enterprise repositories, so my public GitHub activity represents only part of my overall experience. The analytics below use public GitHub data only; private repositories and employer contributions are not exposed to these third-party cards.
 
 <div align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=muscledevnerd&show_icons=true&theme=transparent&hide_border=true&bg_color=0d1117&title_color=667eea&text_color=c9d1d9&icon_color=f093fb&include_all_commits=true" alt="GitHub profile statistics for muscledevnerd" />
-  <img height="180" src="https://streak-stats.demolab.com?user=muscledevnerd&theme=tokyonight&hide_border=true&background=0D1117&stroke=667EEA&ring=764BA2&fire=F093FB&currStreakLabel=C9D1D9&sideLabels=C9D1D9&currStreakNum=C9D1D9&sideNums=C9D1D9&dates=8B949E" alt="GitHub contribution streak for muscledevnerd" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=muscledevnerd&theme=github_dark" alt="Live public GitHub statistics summary for muscledevnerd" width="49%" />
+  <img src="https://streak-stats.demolab.com?user=muscledevnerd&theme=tokyonight&hide_border=true&background=0D1117&stroke=667EEA&ring=764BA2&fire=F093FB&currStreakLabel=C9D1D9&sideLabels=C9D1D9&currStreakNum=C9D1D9&sideNums=C9D1D9&dates=8B949E" alt="Live public GitHub contribution streak for muscledevnerd" width="49%" />
 </div>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=muscledevnerd&theme=react-dark&hide_border=true&bg_color=0d1117&color=c9d1d9&line=667eea&point=f093fb&area=true&area_color=764ba2" alt="GitHub contribution activity graph for muscledevnerd" width="100%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=muscledevnerd&theme=github_dark" alt="Live public GitHub contribution activity graph for muscledevnerd" width="100%" />
 </div>
 
 <div align="center">
-  <img src="./profile-summary-card-output/github_dark/0-profile-details.svg" alt="Generated GitHub profile summary card for muscledevnerd" width="100%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=muscledevnerd&theme=github_dark&utcOffset=-4" alt="Live public productive-time summary card for muscledevnerd" width="49%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=muscledevnerd&theme=github_dark" alt="Live public repositories-per-language summary card for muscledevnerd" width="49%" />
 </div>
 
 <div align="center">
-  <img src="./profile-summary-card-output/github_dark/4-productive-time.svg" alt="Generated productive time summary card for muscledevnerd" width="49%" />
-  <img src="./profile-summary-card-output/github_dark/1-repos-per-language.svg" alt="Generated repositories per language summary card for muscledevnerd" width="49%" />
-</div>
-
-<div align="center">
-  <img src="./profile-summary-card-output/github_dark/2-most-commit-language.svg" alt="Generated most committed language summary card for muscledevnerd" width="49%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=muscledevnerd&theme=github_dark" alt="Live public most-committed-language summary card for muscledevnerd" width="49%" />
   <img src="https://github-contributor-stats.vercel.app/api?username=muscledevnerd&limit=5&theme=github_dark&combine_all_yearly_contributions=true&hide_border=true" alt="Top contributed public repositories for muscledevnerd" width="49%" />
 </div>
 
@@ -156,7 +152,7 @@ mission: Build secure, scalable and maintainable software.</code></pre>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/pacman-contribution-graph-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="./assets/pacman-contribution-graph.svg" />
-    <img src="./assets/pacman-contribution-graph.svg" alt="Animated Pac-Man style contribution graph for muscledevnerd" width="100%" />
+    <img src="./assets/pacman-contribution-graph.svg" alt="Generated contribution graph animation for muscledevnerd" width="100%" />
   </picture>
 </div>
 

@@ -228,7 +228,7 @@ mission: Build secure, scalable and maintainable software.</code></pre>
   <img src="https://img.shields.io/badge/Developer%20productivity-161b22?style=for-the-badge&logo=githubcopilot&logoColor=667eea&labelColor=0d1117" alt="Current focus badge for developer productivity" />
 </p>
 
-<div align="center">
+<!-- <div align="center">
   <img src="./assets/divider.svg" alt="Animated gradient divider" width="100%" />
 </div>
 
@@ -275,7 +275,7 @@ mission: Build secure, scalable and maintainable software.</code></pre>
       <p><a href="#">Repository placeholder</a> &middot; <a href="#">Live demo placeholder</a> &middot; <a href="#">Architecture docs placeholder</a></p>
     </td>
   </tr>
-</table>
+</table> -->
 
 <details>
   <summary><strong>Learning roadmap</strong></summary>

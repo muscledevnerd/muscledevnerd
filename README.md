@@ -128,31 +128,53 @@ mission: Build secure, scalable and maintainable software.</code></pre>
 > Most of my professional engineering work is completed in private enterprise repositories, so my public GitHub activity represents only part of my overall experience. The analytics below use public GitHub data only; private repositories and employer contributions are not exposed to these third-party cards.
 
 <div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=muscledevnerd&theme=github_dark" alt="Live public GitHub statistics summary for muscledevnerd" width="49%" />
-  <img src="https://streak-stats.demolab.com?user=muscledevnerd&theme=tokyonight&hide_border=true&background=0D1117&stroke=667EEA&ring=764BA2&fire=F093FB&currStreakLabel=C9D1D9&sideLabels=C9D1D9&currStreakNum=C9D1D9&sideNums=C9D1D9&dates=8B949E" alt="Live public GitHub contribution streak for muscledevnerd" width="49%" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=muscledevnerd&theme=github_dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=muscledevnerd&theme=github" />
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=muscledevnerd&theme=github" alt="Live public GitHub statistics summary for muscledevnerd" width="49%" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=muscledevnerd&theme=tokyonight&hide_border=true&background=0D1117&stroke=667EEA&ring=764BA2&fire=F093FB&currStreakLabel=C9D1D9&sideLabels=C9D1D9&currStreakNum=C9D1D9&sideNums=C9D1D9&dates=8B949E" />
+    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=muscledevnerd&theme=default&hide_border=true" />
+    <img src="https://streak-stats.demolab.com?user=muscledevnerd&theme=default&hide_border=true" alt="Live public GitHub contribution streak for muscledevnerd" width="49%" />
+  </picture>
 </div>
-
-<div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=muscledevnerd&theme=github_dark" alt="Live public GitHub contribution activity graph for muscledevnerd" width="100%" />
-</div>
-
-<div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=muscledevnerd&theme=github_dark&utcOffset=-4" alt="Live public productive-time summary card for muscledevnerd" width="49%" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=muscledevnerd&theme=github_dark" alt="Live public repositories-per-language summary card for muscledevnerd" width="49%" />
-</div>
-
-<div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=muscledevnerd&theme=github_dark" alt="Live public most-committed-language summary card for muscledevnerd" width="49%" />
-  <img src="https://github-contributor-stats.vercel.app/api?username=muscledevnerd&limit=5&theme=github_dark&combine_all_yearly_contributions=true&hide_border=true" alt="Top contributed public repositories for muscledevnerd" width="49%" />
-</div>
-
-### Contribution animation
 
 <div align="center">
   <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=muscledevnerd&theme=github_dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=muscledevnerd&theme=github" />
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=muscledevnerd&theme=github" alt="Live public GitHub contribution activity graph for muscledevnerd" width="100%" />
+  </picture>
+</div>
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=muscledevnerd&theme=github_dark&utcOffset=-4" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=muscledevnerd&theme=github&utcOffset=-4" />
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=muscledevnerd&theme=github&utcOffset=-4" alt="Live public productive-time summary card for muscledevnerd" width="49%" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=muscledevnerd&theme=github_dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=muscledevnerd&theme=github" />
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=muscledevnerd&theme=github" alt="Live public repositories-per-language summary card for muscledevnerd" width="49%" />
+  </picture>
+</div>
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=muscledevnerd&theme=github_dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=muscledevnerd&theme=github" />
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=muscledevnerd&theme=github" alt="Live public most-committed-language summary card for muscledevnerd" width="49%" />
+  </picture>
+</div>
+
+<div align="center">
+  <h3>Pac-Man contribution graph</h3>
+  <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/pacman-contribution-graph-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="./assets/pacman-contribution-graph.svg" />
-    <img src="./assets/pacman-contribution-graph.svg" alt="Generated contribution graph animation for muscledevnerd" width="100%" />
+    <img src="./assets/pacman-contribution-graph.svg" alt="Pac-Man contribution graph animation for muscledevnerd" width="100%" />
   </picture>
 </div>
 
@@ -164,9 +186,9 @@ mission: Build secure, scalable and maintainable software.</code></pre>
   <img src="./assets/section-tech.svg" alt="Section heading: Tech Stack" width="100%" />
 </div>
 
-<table>
+<table align="center">
   <tr>
-    <td width="50%" valign="top">
+    <td width="50%" valign="top" align="center">
       <h3>Backend</h3>
       <p>
         <img src="https://skillicons.dev/icons?i=java" alt="Java" title="Java" width="44" height="44" />
@@ -185,7 +207,7 @@ mission: Build secure, scalable and maintainable software.</code></pre>
         <img src="https://skillicons.dev/icons?i=bootstrap" alt="Bootstrap" title="Bootstrap" width="44" height="44" />
       </p>
     </td>
-    <td width="50%" valign="top">
+    <td width="50%" valign="top" align="center">
       <h3>Data</h3>
       <p>
         <img src="https://skillicons.dev/icons?i=postgres" alt="PostgreSQL" title="PostgreSQL" width="44" height="44" />
@@ -215,7 +237,7 @@ mission: Build secure, scalable and maintainable software.</code></pre>
 
 ### Current focus
 
-<p>
+<p align="center">
   <img src="https://img.shields.io/badge/Java%20%26%20Spring%20Boot%20backends-161b22?style=for-the-badge&logo=springboot&logoColor=6DB33F&labelColor=0d1117" alt="Current focus badge for Java and Spring Boot backends" />
   <img src="https://img.shields.io/badge/System%20design-161b22?style=for-the-badge&logo=diagramsdotnet&logoColor=667eea&labelColor=0d1117" alt="Current focus badge for system design" />
   <img src="https://img.shields.io/badge/AWS%20%26%20Docker-161b22?style=for-the-badge&logo=amazonaws&logoColor=FF9900&labelColor=0d1117" alt="Current focus badge for AWS and Docker" />
@@ -224,54 +246,7 @@ mission: Build secure, scalable and maintainable software.</code></pre>
   <img src="https://img.shields.io/badge/Developer%20productivity-161b22?style=for-the-badge&logo=githubcopilot&logoColor=667eea&labelColor=0d1117" alt="Current focus badge for developer productivity" />
 </p>
 
-<div align="center">
-  <img src="./assets/divider.svg" alt="Animated gradient divider" width="100%" />
-</div>
 
-<div align="center">
-  <img src="./assets/section-projects.svg" alt="Section heading: Featured Projects" width="100%" />
-</div>
-
-<table>
-  <tr>
-    <td width="33%" valign="top">
-      <h3>Enterprise workflow platform</h3>
-      <p><strong>Problem:</strong> Coordinate complex business workflows with clear auditability and maintainable service boundaries.</p>
-      <p><strong>Main technologies:</strong> Java, Spring Boot, Angular, SQL, REST APIs.</p>
-      <ul>
-        <li>Role-based workflow orchestration.</li>
-        <li>API contracts designed for frontend/backend alignment.</li>
-        <li>Testable domain logic and integration seams.</li>
-      </ul>
-      <!-- TODO: Replace placeholders below with the real repository, demo, and architecture documentation links. -->
-      <p><a href="#">Repository placeholder</a> &middot; <a href="#">Live demo placeholder</a> &middot; <a href="#">Architecture docs placeholder</a></p>
-    </td>
-    <td width="33%" valign="top">
-      <h3>Developer productivity dashboard</h3>
-      <p><strong>Problem:</strong> Surface delivery signals, engineering metrics, and workflow bottlenecks in one practical view.</p>
-      <p><strong>Main technologies:</strong> React, TypeScript, REST APIs, GitHub Actions, Bootstrap.</p>
-      <ul>
-        <li>Composable dashboard cards for engineering insights.</li>
-        <li>Clean data-fetching boundaries and reusable UI patterns.</li>
-        <li>Automation-ready reporting concepts.</li>
-      </ul>
-      <!-- TODO: Replace placeholders below with the real repository, demo, and architecture documentation links. -->
-      <p><a href="#">Repository placeholder</a> &middot; <a href="#">Live demo placeholder</a> &middot; <a href="#">Architecture docs placeholder</a></p>
-    </td>
-    <td width="33%" valign="top">
-      <h3>Cloud-native API service</h3>
-      <p><strong>Problem:</strong> Provide a secure, scalable API foundation for modern cloud-hosted applications.</p>
-      <p><strong>Main technologies:</strong> Spring Boot, Docker, AWS, SQL, CI/CD.</p>
-      <ul>
-        <li>Container-first service design.</li>
-        <li>Health checks, configuration hygiene, and deployment readiness.</li>
-        <li>Clear API versioning and persistence boundaries.</li>
-      </ul>
-      <!-- TODO: Replace placeholders below with the real repository, demo, and architecture documentation links. -->
-      <p><a href="#">Repository placeholder</a> &middot; <a href="#">Live demo placeholder</a> &middot; <a href="#">Architecture docs placeholder</a></p>
-    </td>
-  </tr>
-</table>
 
 <details>
   <summary><strong>Learning roadmap</strong></summary>

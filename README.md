@@ -117,7 +117,7 @@ mission: Build secure, scalable and maintainable software.</code></pre>
   </tr>
 </table>
 
-<div align="center">
+<!-- <div align="center">
   <img src="./assets/divider.svg" alt="Animated gradient divider" width="100%" />
 </div>
 
@@ -180,7 +180,7 @@ mission: Build secure, scalable and maintainable software.</code></pre>
 
 <div align="center">
   <img src="./assets/divider.svg" alt="Animated gradient divider" width="100%" />
-</div>
+</div> -->
 
 <div align="center">
   <img src="./assets/section-tech.svg" alt="Section heading: Tech Stack" width="100%" />

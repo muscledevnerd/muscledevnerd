@@ -246,7 +246,54 @@ mission: Build secure, scalable and maintainable software.</code></pre>
   <img src="https://img.shields.io/badge/Developer%20productivity-161b22?style=for-the-badge&logo=githubcopilot&logoColor=667eea&labelColor=0d1117" alt="Current focus badge for developer productivity" />
 </p>
 
+<!-- <div align="center">
+  <img src="./assets/divider.svg" alt="Animated gradient divider" width="100%" />
+</div>
 
+<div align="center">
+  <img src="./assets/section-projects.svg" alt="Section heading: Featured Projects" width="100%" />
+</div>
+
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <h3>Enterprise workflow platform</h3>
+      <p><strong>Problem:</strong> Coordinate complex business workflows with clear auditability and maintainable service boundaries.</p>
+      <p><strong>Main technologies:</strong> Java, Spring Boot, Angular, SQL, REST APIs.</p>
+      <ul>
+        <li>Role-based workflow orchestration.</li>
+        <li>API contracts designed for frontend/backend alignment.</li>
+        <li>Testable domain logic and integration seams.</li>
+      </ul>
+      <!-- TODO: Replace placeholders below with the real repository, demo, and architecture documentation links. -->
+      <p><a href="#">Repository placeholder</a> &middot; <a href="#">Live demo placeholder</a> &middot; <a href="#">Architecture docs placeholder</a></p>
+    </td>
+    <td width="33%" valign="top">
+      <h3>Developer productivity dashboard</h3>
+      <p><strong>Problem:</strong> Surface delivery signals, engineering metrics, and workflow bottlenecks in one practical view.</p>
+      <p><strong>Main technologies:</strong> React, TypeScript, REST APIs, GitHub Actions, Bootstrap.</p>
+      <ul>
+        <li>Composable dashboard cards for engineering insights.</li>
+        <li>Clean data-fetching boundaries and reusable UI patterns.</li>
+        <li>Automation-ready reporting concepts.</li>
+      </ul>
+      <!-- TODO: Replace placeholders below with the real repository, demo, and architecture documentation links. -->
+      <p><a href="#">Repository placeholder</a> &middot; <a href="#">Live demo placeholder</a> &middot; <a href="#">Architecture docs placeholder</a></p>
+    </td>
+    <td width="33%" valign="top">
+      <h3>Cloud-native API service</h3>
+      <p><strong>Problem:</strong> Provide a secure, scalable API foundation for modern cloud-hosted applications.</p>
+      <p><strong>Main technologies:</strong> Spring Boot, Docker, AWS, SQL, CI/CD.</p>
+      <ul>
+        <li>Container-first service design.</li>
+        <li>Health checks, configuration hygiene, and deployment readiness.</li>
+        <li>Clear API versioning and persistence boundaries.</li>
+      </ul>
+      <!-- TODO: Replace placeholders below with the real repository, demo, and architecture documentation links. -->
+      <p><a href="#">Repository placeholder</a> &middot; <a href="#">Live demo placeholder</a> &middot; <a href="#">Architecture docs placeholder</a></p>
+    </td>
+  </tr>
+</table> -->
 
 <details>
   <summary><strong>Learning roadmap</strong></summary>

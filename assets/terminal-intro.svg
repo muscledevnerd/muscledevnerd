@@ -71,14 +71,11 @@
     <text class="out line l8" x="0" y="196">10 years</text>
 
     <text class="prompt line l9" x="520" y="0">$ stack</text>
-    <text class="out line l10" x="520" y="28">Java &#8226; Spring Boot &#8226; Angular</text>
-    <text class="out line l10" x="520" y="56">React &#8226; TypeScript &#8226; JavaScript &#8226; SQL</text>
-    <text class="prompt line l11" x="520" y="98">$ currently-learning</text>
-    <text class="out line l12" x="520" y="126">AWS &#8226; Docker &#8226; System Design</text>
-    <text class="out line l12" x="520" y="154">Applied AI &#8226; CI/CD</text>
-    <text class="prompt line l13" x="520" y="190">$ mission</text>
-    <text class="out line l14" x="520" y="218">Build secure, scalable and</text>
-    <text class="out line l14" x="520" y="246">maintainable software.</text>
-    <rect class="cursor" x="520" y="268" width="10" height="20" fill="#f093fb" />
+    <text class="out line l10" x="520" y="28">Java &#8226; Spring Boot &#8226; Angular &#8226; React &#8226; TypeScript</text>
+    <text class="prompt line l11" x="520" y="70">$ currently-learning</text>
+    <text class="out line l12" x="520" y="98">AWS &#8226; Docker &#8226; System Design &#8226; Applied AI</text>
+    <text class="prompt line l13" x="520" y="140">$ mission</text>
+    <text class="out line l14" x="520" y="168">Build secure, scalable and maintainable software.</text>
+    <rect class="cursor" x="520" y="190" width="10" height="20" fill="#f093fb" />
   </g>
 </svg>

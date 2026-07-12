@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1100" height="300" viewBox="0 0 1100 300" role="img" aria-labelledby="title desc">
   <title id="title">Pac-Man contribution graph for muscledevnerd</title>
-  <desc id="desc">Pac-Man themed contribution graph for muscledevnerd. It is refreshed by GitHub Actions and can use PROFILE_GITHUB_TOKEN for broader authorized contribution visibility.</desc>
+  <desc id="desc">Animated Pac-Man themed contribution graph for muscledevnerd.</desc>
   <defs>
     <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#667eea" />
@@ -32,5 +32,5 @@
     <circle cx="28" cy="12" r="6" fill="#fff" /><circle cx="52" cy="12" r="6" fill="#fff" />
     <circle cx="30" cy="12" r="2.5" fill="#111827" /><circle cx="54" cy="12" r="2.5" fill="#111827" />
   </g>
-  <text x="54" y="252" class="note">Public cards show public GitHub data; add PROFILE_GITHUB_TOKEN for broader authorized contribution visibility.</text>
+  <text x="54" y="252" class="note">muscledevnerd - refreshed daily</text>
 </svg>

@@ -1,16 +1,29 @@
-# Mridul Khanna
+<div align="center">
 
-Senior Full-Stack Software Engineer · Toronto, Canada
+# MRIDUL KHANNA
 
-[Portfolio](https://mridulkhanna.com) · [LinkedIn](https://www.linkedin.com/in/mridulkhanna) · [GitHub](https://github.com/muscledevnerd)
+Senior Full-Stack Software Engineer — Toronto, Canada
 
-## About
+[Portfolio](https://mridulkhanna.com) `/` [LinkedIn](https://www.linkedin.com/in/mridulkhanna) `/` [GitHub](https://github.com/muscledevnerd)
+
+</div>
+
+<br>
+
+```yaml
+role:       Senior Full-Stack Software Engineer
+location:   Toronto, Canada
+experience: 10 years
+mission:    Build secure, scalable, and maintainable software.
+```
+
+---
+
+### // about
 
 10 years building enterprise software across the stack — Java and Spring Boot services, Angular and React frontends, REST APIs, and the SQL/Hibernate/JPA layer underneath them. I care about code that communicates intent clearly, holds up under change, and doesn't need a hero to maintain it.
 
-**Mission:** build secure, scalable, and maintainable software.
-
-## Focus areas
+### // focus
 
 - Enterprise full-stack delivery across frontend, backend, and data layers
 - Application modernization with pragmatic, low-risk migration paths
@@ -18,29 +31,24 @@ Senior Full-Stack Software Engineer · Toronto, Canada
 - Cloud-ready practices — AWS, Docker, CI/CD, system design
 - Cross-team technical collaboration and architecture discussions
 
-## Tech stack
+### // stack
 
-**Backend**
-<img src="https://skillicons.dev/icons?i=java,spring,maven,nodejs" alt="Java, Spring, Maven, Node.js" height="32" />
+```
+backend    java · spring boot · maven · node.js
+frontend   angular · react · typescript · javascript · html · css · bootstrap
+data       postgresql · mysql · sql
+cloud      aws · docker · jenkins · github actions · linux
+tools      git · github · vs code · intellij idea · postman · notion
+```
 
-**Frontend**
-<img src="https://skillicons.dev/icons?i=angular,react,ts,js,html,css,bootstrap" alt="Angular, React, TypeScript, JavaScript, HTML, CSS, Bootstrap" height="32" />
+### // learning
 
-**Data**
-<img src="https://skillicons.dev/icons?i=postgres,mysql" alt="PostgreSQL, MySQL" height="32" />
-
-**Cloud & DevOps**
-<img src="https://skillicons.dev/icons?i=aws,docker,jenkins,githubactions,linux" alt="AWS, Docker, Jenkins, GitHub Actions, Linux" height="32" />
-
-**Tools**
-<img src="https://skillicons.dev/icons?i=git,github,vscode,idea,postman,notion" alt="Git, GitHub, VS Code, IntelliJ IDEA, Postman, Notion" height="32" />
-
-## Currently deepening
-
-AWS and Docker · CI/CD and cloud architecture · system design · AI-assisted software development
+```
+now    aws & docker · ci/cd & cloud architecture · system design · ai-assisted engineering
+```
 
 <details>
-<summary>Learning roadmap</summary>
+<summary>full roadmap</summary>
 <br>
 
 - **Advanced Java** — concurrency, performance tuning, modern language features, JVM diagnostics
@@ -54,12 +62,12 @@ AWS and Docker · CI/CD and cloud architecture · system design · AI-assisted s
 
 </details>
 
-## Philosophy
+### // philosophy
 
 > Clarity in design. Discipline in delivery. Trust in every release.
 
-I value software that protects users and business workflows, scales without unnecessary complexity, and gives teams the confidence to change it — through strong tests, clean boundaries, and practical engineering discipline.
+Software that protects users and business workflows, scales without unnecessary complexity, and gives teams the confidence to change it — through strong tests, clean boundaries, and practical engineering discipline.
 
 ---
 
-<sub>Toronto, Canada · [mridulkhanna.com](https://mridulkhanna.com)</sub>
+<sub>Toronto, Canada</sub>
